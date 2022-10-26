@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 
-/* 
+
 export class AppComponent {
   title = 'Excercise';
   num = '#2'
@@ -27,8 +27,8 @@ interface Employee {
   city: string,
   salary: number
 }
-*/
 
+/* 
 export class AppComponent {
   title = 'Excercise';
   num = '#1'
@@ -46,4 +46,4 @@ export class AppComponent {
     }
   ]
 }
-
+*/
