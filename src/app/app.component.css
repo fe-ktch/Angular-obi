@@ -1,3 +1,46 @@
+body {
+    text-align: center;
+    color: rgb(0, 38, 141);
+}
+h1 {
+    margin: 20px;
+    padding-top: 20px;
+}
+h3 {
+    margin: 20px;
+}
+hr {
+    width: 600px;
+}
+img {
+    width: 600px;
+}
 table {
-    border: solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(46, 71, 184);
+    width: 600px;
+}
+td {
+    border: solid 1px;
+    padding: 5px;
+}
+tr:hover {
+    background-color: rgb(196, 202, 219);
+}
+.clicky {
+    font-size: 17px;
+    margin: 40px;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(46, 71, 184);
+    background-color: rgb(196, 202, 219);
+}
+.clicky:hover {
+    background-color: rgb(169, 176, 194);
 }

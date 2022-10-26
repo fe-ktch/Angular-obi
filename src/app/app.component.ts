@@ -11,6 +11,27 @@ export class AppComponent {
   title = 'Excercise';
   num = '#2'
 
+/* Exercise #2 */
+// Object 
+  mari!: Employee;
+  kati: Employee = {
+    name: "Pere Kata",
+    city: "Szeged",
+    salary: 300
+  }
+
+  // Variables for the img element:
+  path: string = '../assets/images/forest.jpg'
+  alt: string = 'Image of a Forest'
+
+katt():void {
+  alert("It works!");
+}
+
+
+/* Exercise #1 */
+/*
+// Object, Constructor
   mari!: Employee;
   constructor() {
     this.mari = {
@@ -18,9 +39,10 @@ export class AppComponent {
     city: "Szeged",
     salary: 300
   }
-  }
+  }*/
 }
 
+/* Exercise #2 */
 // Interface
 interface Employee {
   name: string,
@@ -28,7 +50,10 @@ interface Employee {
   salary: number
 }
 
+
+/* Exercise #1 */
 /* 
+// Array
 export class AppComponent {
   title = 'Excercise';
   num = '#1'
